@@ -13,11 +13,6 @@ const usuarioSchema = mongoose.Schema(
         require: true,
         trim: true,
     },
-    tipo: {
-        type: String,
-        require: true,
-        trim: true,
-    },
     email: {
         type: String,
         required: true,
